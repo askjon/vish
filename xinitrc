@@ -29,7 +29,7 @@ if [ -f "$usermodmap" ]; then
 fi
 
 # Initial System Configuration
-
+xset -dpms s off
 xset -b
 setxkbmap de
 urxvtd &
