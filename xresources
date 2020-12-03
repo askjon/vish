@@ -101,6 +101,6 @@
 !color14:     darkerblue
 !color15:     washedred
 
-URxvt.font: xft: xos4 Terminus:pixelsize=22
+URxvt.font: xft: xos4 Terminus:pixelsize=16
 URxvt.scrollBar: false
 
