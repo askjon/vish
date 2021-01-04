@@ -4,7 +4,7 @@ XDG_CONFIG_HOME=${HOME}/.config
 
 CONFIGS=xinitrc zshrc bspwmrc sxhkdrc xresources 
 
-.phony install
+#.PHONY install
 
 install:xinitrc bspwmrc sxhkdrc xresources zshrc
 	cp xinitrc ${HOME}/.xinitrc
