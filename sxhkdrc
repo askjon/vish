@@ -1,17 +1,15 @@
-# [U2L] .config/sxhkd/sxhkdrc 
-
-
+#!$(which sxhkd)
+# jon 2021
+# .config/sxhkd/sxhkdrc 
 
 # [misc]
 
 # launcher
 alt + Return
 	urxvtc
-
 # terminal
 alt + shift + Return
-	rofi -show run
-
+	dmenu_run
 # reload sxhkd
 alt + Escape
 	pkill -USR1 -x sxhkd
@@ -23,34 +21,27 @@ alt + Escape
 # quit/restart bspwm
 alt + shift + {q,r}
 	bspc {quit,wm -r}
-
 # close and kill
-alt + shift + {c,k}
-	bspc node -{c,k}
-
+alt + shift + {c,y,x} # y as in $y it out the window
+	bspc node -{c,c,k}
 # alternate tiled and monocle layout
-alt + m
+alt + l
 	bspc desktop -l next
-
-# send the newest marked node to the newest preselected node
-alt + y
-	bspc node newest.marked.local -n newest.!automatic.local
-
-# swap the current node and the biggest window
-alt + g
+# maximise in layout
+alt + m
 	bspc node -s biggest.window
-
-
+# maximise/fullscreen
+alt + f
 
 # [bspwm] state/flags
 
 # set the window state
-alt + {t,shift + t,s,f}
+alt + shift + {t,p,m,f}
 	bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
 
-# set the node flags
-alt + ctrl + {m,x,y,z}
-	bspc node -g {marked,locked,sticky,private}
+# set the window behavior
+alt + shift + s
+	bspc node -g sticky
 
 
 
