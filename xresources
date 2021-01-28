@@ -1,39 +1,41 @@
+! jon 2021
+! .Xresources
+
 !----------!
 !! Colors !!
 !----------!
 
 !U-color-pallet
 
-!!Deep Ocean Blue
-!define touchedblack #0f0f0f
-!!washed Orange
-!define washedorange #e8ae3e
-!!washed red
-!define washedred #ff5347
-!!washed green
-!define washedgreen #93b645
-!!washed blue
-!define washedblue #18b29d
-!!washed lime
-!define washedlime #92ff93
-!!darker Orange
-!define darkerorange #e07d04
-!!darker red
-!define darkerred #d92e1e
-!!darker green
-!define darkergreen #4d7327
-!!darker blue
-!define darkerblue #1a4878
-!!Comment blue
-!define commentblue #14374c
-!!wine red
-!define winered #732020
-!!touched white
-!define touchedwhite #e6ebc4
-!!toched grey
-!define touchedgrey #a68a7b
-!!touched lime
-!define touchedlime #8eb97c
+#define touchedblack #0f0f0f !Deep Ocean Blue
+!washed Orange
+#define washedorange #e8ae3e
+!washed red
+#define washedred #ff5347
+!washed green
+#define washedgreen #93b645
+!washed blue
+#define washedblue #18b29d
+!washed lime
+#define washedlime #92ff93
+!darker Orange
+#define darkerorange #e07d04
+!darker red
+#define darkerred #d92e1e
+!darker green
+#define darkergreen #4d7327
+!darker blue
+#define darkerblue #1a4878
+!Comment blue
+#define commentblue #14374c
+!wine red
+#define winered #732020
+!touched white
+#define touchedwhite #e6ebc4
+!toched grey
+#define touchedgrey #a68a7b
+!touched lime
+#define touchedlime #8eb97c
 
 !NerdyPepper
 
@@ -56,50 +58,50 @@
 
 !Old Theme
 
-*cursorColor:   magenta
-*background:	#2E3440
-*foreground:	#A3BE8C
-*color0:	#2E3440
-*color1:	#88C0D0
-*color2:	#BF616A
-*color3:	#5E81AC
-*color4:	#EBCB8B !Yellow
-*color5:	#A3BE8C !slightly lighter green
-*color6:	#D08770 !nice Orange
-*color7:	#E5E9F0
-*color8:	#4C566A
-*color9:	#88C0D0
-*color10:	#BF616A
-*color11:	#5E81AC
-*color12:	#EBCB8B
-*color13:	#A3BE8C
-*color14:	#D08770
-*color15:	#8FBCBB
+!cursorColor:   magenta
+!background:	#2E3440
+!foreground:	#A3BE8C
+!color0:	#2E3440
+!color1:	#88C0D0
+!color2:	#BF616A
+!color3:	#5E81AC
+!color4:	#EBCB8B !Yellow
+!color5:	#A3BE8C !slightly lighter green
+!color6:	#D08770 !nice Orange
+!color7:	#E5E9F0
+!color8:	#4C566A
+!color9:	#88C0D0
+!color10:	#BF616A
+!color11:	#5E81AC
+!color12:	#EBCB8B
+!color13:	#A3BE8C
+!color14:	#D08770
+!color15:	#8FBCBB
 
 !---------!
 !! Urxvt !!
 !---------!
 
 
-!cursorColor: touchedgrey
-!foreground:  touchedlime
-!background:  touchedblack
-!color0:      darkerblue
-!color1:      washedred
-!color2:      washedgreen
-!color3:      washedorange
-!color4:      washedlime
-!color5:      washedorange
-!color6:      washedblue
-!color7:      darkerred
-!color8:      darkergreen
-!color9:      darkerblue
-!color10:     darkergreen
-!color11:     washedred
-!color12:     washedgreen
-!color13:     washedorange
-!color14:     darkerblue
-!color15:     washedred
+*cursorColor: touchedgrey
+*foreground:  touchedlime
+*background:  touchedblack
+*color0:      darkerblue
+*color1:      washedred
+*color2:      washedgreen
+*color3:      washedorange
+*color4:      washedlime
+*color5:      washedorange
+*color6:      washedblue
+*color7:      darkerred
+*color8:      darkergreen
+*color9:      darkerblue
+*color10:     darkergreen
+*color11:     washedred
+*color12:     washedgreen
+*color13:     washedorange
+*color14:     darkerblue
+*color15:     washedred
 
 URxvt.font: xft: xos4 Terminus:pixelsize=32
 URxvt.scrollBar: false

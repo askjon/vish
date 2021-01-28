@@ -1,3 +1,6 @@
+#!$(which zsh)
+# jon 2021
+# zshenv
 
 ZSH_RC=$HOME/.zshrc
 
