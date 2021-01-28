@@ -33,4 +33,5 @@ xset -dpms s off
 xset -b
 setxkbmap de
 urxvtd &
+sxhkd &
 exec bspwm
