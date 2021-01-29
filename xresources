@@ -1,12 +1,7 @@
 ! jon 2021
 ! .Xresources
 
-!----------!
-!! Colors !!
-!----------!
-
 !U-color-pallet
-
 #define touchedblack #0f0f0f !Deep Ocean Blue
 !washed Orange
 #define washedorange #e8ae3e
@@ -39,22 +34,22 @@
 
 !NerdyPepper
 
-!#define c00 #212121
-!#define c01 #303030
-!#define c02 #353535
-!#define c03 #4a4a4a
-!#define c04 #b2ccd6
-!#define c05 #eeffff
-!#define c06 #eeffff
-!#define c07 #ffffff
-!#define c08 #7c7c7c
-!#define c09 #999999
-!#define c0A #a0a0a0
-!#define c0B #7ece91
-!#define c0C #868686
-!#define c0D #686868
-!#define c0E #747474
-!#define c0F #5e5e5e
+#define c00 #212121
+#define c01 #303030
+#define c02 #353535
+#define c03 #4a4a4a
+#define c04 #b2ccd6
+#define c05 #eeffff
+#define c06 #eeffff
+#define c07 #ffffff
+#define c08 #7c7c7c
+#define c09 #999999
+#define c0A #a0a0a0
+#define c0B #7ece91
+#define c0C #868686
+#define c0D #686868
+#define c0E #747474
+#define c0F #5e5e5e
 
 !Old Theme
 
@@ -78,29 +73,24 @@
 !color14:	#D08770
 !color15:	#8FBCBB
 
-!---------!
-!! Urxvt !!
-!---------!
-
-
 *cursorColor: touchedgrey
-*foreground:  touchedlime
-*background:  touchedblack
-*color0:      darkerblue
-*color1:      washedred
-*color2:      washedgreen
-*color3:      washedorange
-*color4:      washedlime
-*color5:      washedorange
-*color6:      washedblue
-*color7:      darkerred
-*color8:      darkergreen
-*color9:      darkerblue
-*color10:     darkergreen
-*color11:     washedred
-*color12:     washedgreen
-*color13:     washedorange
-*color14:     darkerblue
+*foreground:	#A3BE8C
+*background:	#2E3440
+*color0:	#2E3440
+*color1:	#88C0D0
+*color2:	#BF616A
+*color3:	#5E81AC
+*color4:	#EBCB8B !Yellow
+*color5:	#A3BE8C !slightly lighter green
+*color6:	#D08770 !nice Orange
+*color7:	#E5E9F0
+*color8:	#4C566A
+*color9:	#88C0D0
+*color10:	#BF616A
+*color11:	#5E81AC
+*color12:	#EBCB8B
+*color13:	#A3BE8C
+*color14:	#D08770
 *color15:     washedred
 
 URxvt.font: xft: xos4 Terminus:pixelsize=32
