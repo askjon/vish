@@ -8,6 +8,7 @@ XDG_CONFIG_HOME=${HOME}/.config
 #.PHONY install
 
 install:
+	cp bashrc ${HOME}/.bashrc
 	cp xinitrc ${HOME}/.xinitrc
 	cp xresources ${HOME}/.Xresources
 	cp zshrc ${HOME}/.zshrc
@@ -16,6 +17,7 @@ install:
 	cp sxhkdrc ${XDG_CONFIG_HOME}/sxhkd/sxhkdrc
 
 collect:
+	cp ${HOME}/.bashrc bashrc 
 	cp ${HOME}/.xinitrc xinitrc
 	cp ${HOME}/.Xresources xresources 
 	cp ${HOME}/.zshrc zshrc 
